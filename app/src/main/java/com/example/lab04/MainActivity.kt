@@ -59,3 +59,9 @@ fun TarjetaPresentacion() {
         Text(text = "Esta es una tarjeta de control", modifier = Modifier.padding(16.dp))
     }
 }
+@Composable
+fun BotonFlotante() {
+    FloatingActionButton(onClick = { /* Acción */ }) {
+        Icon(Icons.Default.Add, contentDescription = "Agregar")
+    }
+}
