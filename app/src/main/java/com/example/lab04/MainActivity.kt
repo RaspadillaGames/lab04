@@ -53,3 +53,9 @@ fun ListaSimple() {
         }
     }
 }
+@Composable
+fun TarjetaPresentacion() {
+    Card(modifier = Modifier.padding(16.dp)) {
+        Text(text = "Esta es una tarjeta de control", modifier = Modifier.padding(16.dp))
+    }
+}
