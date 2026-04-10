@@ -45,3 +45,11 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+@Composable
+fun ListaSimple() {
+    LazyColumn {
+        items(10) { index ->
+            Text(text = "Elemento de la lista #$index")
+        }
+    }
+}
